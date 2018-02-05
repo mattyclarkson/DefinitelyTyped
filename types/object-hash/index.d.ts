@@ -18,6 +18,7 @@ declare namespace ObjectHash {
 		respectFunctionNames?: boolean;
 		unorderedArrays?: boolean;
 		unorderedSets?: boolean;
+		excludeKeys?: (key: string) => boolean;
 	}
 
 	interface HashTableItem {
